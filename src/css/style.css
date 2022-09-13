@@ -45,7 +45,7 @@
 
 .formulario input {
     display: flex;
-    width: 100%;
+    width: 330px;
     height: 32px;
     border: none;
     border-radius: 4px;
@@ -58,6 +58,6 @@ input::placeholder {
     opacity: 50%;
 }
 
-input:active {
-    width: 100%;
+input:focus {
+    width: 350px;
 }
