@@ -1,5 +1,6 @@
 .login {
     background-image: url(../img/fundo.webp);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -25,7 +26,7 @@
 }
 
 .btnEntrar {
-    width: 30%;
+    width: 200px;
     padding: 8px 0px;
     border: none;
     border-radius: 16px;
@@ -34,7 +35,7 @@
 }
 
 .btnEntrar:hover {
-    width: 60%;
+    width: 220px;
     transition: 1.5s;
 }
 
@@ -60,4 +61,21 @@ input::placeholder {
 
 input:focus {
     width: 350px;
+}
+
+@media screen and ( max-width: 720px) {
+    .formulario {
+        width: 350px;
+    }
+    .formulario input {
+        width: 280px;
+    }
+    input:focus {
+        width: 300px;
+    }
+    .btnEntrar:active {
+        height: 38px;
+        transition: 0.5s;
+        background-color: rgb(212, 212, 212);
+    }
 }
