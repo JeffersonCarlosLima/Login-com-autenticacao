@@ -1,8 +1,8 @@
 function acesso() {
     var usuario = document.getElementById("usuario");
     var senha = document.getElementById("senha");
-    let userName = 'Teste';
-    let chave = '12345678';
+    let userName = 'Jefferson';
+    let chave = '123456789';
     let inicio = "inicio.html";
 
     if (usuario.value == userName && senha.value == chave) {
